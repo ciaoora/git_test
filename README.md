@@ -1,1 +1,1 @@
-This is Jenny’s first git project!
+This is Jenny’s first git project, recreating the Google Homepage. 
