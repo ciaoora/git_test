@@ -1,0 +1,135 @@
+html, body {
+  background-color: #fff;
+  color: #222;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  height: 100%;
+}
+
+a {
+    display: inline-block;
+    color: #222;
+    text-decoration: none;
+}
+
+div{
+  display: block; 
+}
+
+header {
+  padding-top: 15px;
+}
+
+.topleftnav {
+  overflow: hidden;
+  float: left;
+}
+
+.topleftnav a {
+  padding-left: 15px;
+}
+
+.toprightnav{
+  float: right;
+  padding-right: 10px;
+}
+
+.toprightnav a {
+  padding-right: 15px;
+}
+
+a:hover {
+  opacity: 75%;
+  text-decoration: underline;
+}
+
+.blue {
+  line-height: 30px;
+  color: white;
+  padding: 0 12px;
+  border-radius: 2px;
+  cursor: default;
+  border: 1px solid #4285f4;
+  background: #4285f4;
+  font-weight: bold;
+}
+
+.main{
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+  margin-left: 220px;
+}
+
+.logo {
+  margin-top: -200px;
+  padding-bottom: 2%;
+}
+
+.searchform {
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  height: 44px;
+  margin: 0 auto;
+  width: 482px;
+}
+
+.searchform:hover{
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.searchform:focus {
+outline: none;
+}
+
+.grey {
+  color: #5F6368;
+   margin: 30px 5px;
+    padding: 10px 16px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 3px;
+    font-size: 1.1em;
+}
+
+.grey:hover {
+  border: solid 1px lightgrey;
+  color: #222;
+  opacity: 100%;
+  text-decoration: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    line-height: 40px;
+    width: 100%;
+    margin: 0;
+    line-height: 40px;
+}
+
+footer {
+    display: block;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    border-top: 1px solid #dfe1e5;
+}
+
+.footer a {
+    padding: 0 0 0 25px;
+    color: #5f6368;
+    text-decoration: none;
+}
+
+.footerright {
+  float: right;
+  padding-right: 30px;
+}
